@@ -1,14 +1,25 @@
 .container {
-  width: 70%;
   margin: auto;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .dice {
   text-align: center;
   display: inline-block;
-
 }
+
+button {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  font-family: 'Indie Flower', cursive;
+  background-color: #4ECCA3;
+  padding: 12px 50px;
+  border-radius: 100px;
+  border-color: transparent;
+}
+
 
 body {
   background-color: #393E46;
@@ -30,12 +41,4 @@ p {
 
 img {
   width: 80%;
-}
-
-footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-
 }
